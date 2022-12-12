@@ -1,0 +1,145 @@
+*{
+	padding: 0; margin: 0;
+	box-sizing: border-box;
+	margin: auto;
+	text-align: center;
+}
+	body{
+		background-image: url("https://img.freepik.com/fotos-premium/degradado-borroso-negro-gris-oscuro-fondo-sombra-hoja-tienen-poco-luz-abstracta_532332-1850.jpg");
+		background-repeat: no-repeat;
+		background-size: 100%;
+		color: #ffffff;
+	}
+
+
+
+/*antes logo*/
+#Alogo{
+	padding-top: 10px;
+	display: flex;
+	column-count: 2;
+	
+}
+#Alogo img{
+	width: 50px; height: 50px;
+	border: solid;
+}
+
+
+
+
+/*IMAGEN*/
+.imagen{
+	width:100px; height: 100px;
+	border-radius:50%;
+	margin: 10px auto;
+}
+.imagen img{
+	margin:auto;
+	width: 97px; 
+	border-radius: 100%;
+
+}
+
+#txt{
+	margin-top: 10px;
+	margin-bottom: 24px;
+	width: 45%;
+
+}
+
+/*LOGOS*/
+#logos{
+	margin-top: 25px;
+	width: 20%; height: 42px;
+		
+	column-count: 4;
+}
+#logos img{
+	width: 35px;
+	margin-top: 1.3px;
+	
+	padding: 0px;
+}
+
+
+/*DISEÑO LINKS*/
+.container{
+	padding-top: 20px;
+	 text-align:center;
+	column-count: 1;
+	width: 60%;
+
+}
+.container a{
+	width: 60%;
+}
+
+
+#linkD{
+	background: #F5ED04;
+	padding: 16px;
+	min-padding: 20px;
+	max-padding:25px;
+
+	margin:18px;
+	
+	border-radius: 30px;
+}
+#linkD:hover{
+	transform: scaleX(1.05) scaleY(1.05);
+	transition: .08s ;
+}
+
+#linkD a{
+	text-decoration: none;
+	color: #000000; font-size: 18px;
+	letter-spacing: 2px;
+}
+
+
+
+
+
+
+/*CREADOR*/
+footer a{
+	text-decoration: none;
+	font-size: 20px;
+	color: #ffffff;
+}
+
+footer{
+	margin-top: 50px;
+	margin-bottom: 50px;
+}
+
+
+/*RESPONSIVE*/
+@media screen and (max-width:1080px) and (min-width: 721px)
+{
+	.container{
+		width: 90%;
+		max-width: ;
+	}
+	#logos{
+	width: 61%; height: 55px;
+	}
+	#logos img{
+		padding-left: 30%;
+		width: 40px;
+	}
+}
+
+@media screen and (max-width:720px) and (min-width: 250px)
+{
+	.container{
+		min-width: 100%;
+	}
+	#logos{
+	width: 70%; height: 44px;
+	}
+	#logos img{
+		width: 35px;
+	}
+}
